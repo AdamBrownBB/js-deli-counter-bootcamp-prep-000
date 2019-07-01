@@ -1,5 +1,8 @@
-  /*add element to an array. create a new variable to store the new value. 
-  then use length property to add 1 and return the string with the name. */
+  /*add element to an array. 
+  create a new variable to store the new value (position). 
+  then use length property to add 1 to describe position 
+  use PUSH to append the new name to the array
+  return the string with the name. */
 
 function takeANumber(katzDeliLine, name) {
   
@@ -32,7 +35,7 @@ function nowServing (katzDeliLine) {
 /*  Make a variable to store the empty array.
   IF statement to tell it when to to return. 
   Then the FOR loop to iterate through the array, and return the message.
-  Use the PUSH method to add the name and number to the new array.
+  Use the PUSH method to append the name and number to the new array.
   use a templ. literal to get the names and numbers into the statement
   use the JOIN method to complete the sentence the way that it appears in the tests, with the commas.
 
